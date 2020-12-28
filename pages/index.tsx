@@ -16,9 +16,9 @@ export default function IndexPage() {
         </p>
         <div className="w-full overflow-hidden bg-gray-800 rounded-md shadow-2xl md:rounded-xl">
           <Image
-            src="/screenshots/screen_2.png"
-            width="3310"
-            height="2092"
+            src="/screenshots/screen_main.jpg"
+            width="1500"
+            height="948"
             layout="responsive"
           />
         </div>
