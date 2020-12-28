@@ -9,10 +9,12 @@ const Layout: React.FC = ({ children }) => {
       <ImageFader
         isDarker
         backgroundImages={[
-          '/images/rotate1.jpg',
-          '/images/rotate2.jpg',
-          '/images/rotate3.jpg',
-          '/images/rotate4.jpg',
+          '/images/mando.jpg',
+          '/images/ww_bg.jpg',
+          '/images/tenet.jpg',
+          '/images/coco.jpg',
+          '/images/avengers.jpg',
+          '/images/moana.jpg',
         ]}
       />
       <Header />
