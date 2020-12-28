@@ -5,3 +5,13 @@
 body {
     @apply text-white bg-gray-900;
 }
+
+.image-fader {
+    height: 600px;
+}
+
+@screen md {
+    .image-fader {
+        height: 800px;
+    }
+}
