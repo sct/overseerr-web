@@ -70,6 +70,13 @@ export default function Header() {
             >
               GitHub
             </a>
+
+            <a
+              href="https://discord.gg/sZNaxsb6tc"
+              className="font-medium text-gray-300 hover:text-white"
+            >
+              Discord
+            </a>
           </div>
         </nav>
       </div>
@@ -143,6 +150,14 @@ export default function Header() {
                   role="menuitem"
                 >
                   GitHub
+                </a>
+
+                <a
+                  href="https://discord.gg/sZNaxsb6tc"
+                  className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-100 hover:bg-gray-50"
+                  role="menuitem"
+                >
+                  Discord
                 </a>
               </div>
             </div>

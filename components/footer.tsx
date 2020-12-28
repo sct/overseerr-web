@@ -25,9 +25,17 @@ export default function Footer() {
             href="https://github.com/sct/overseerr"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold"
+            className="mr-6 font-bold"
           >
             GitHub
+          </a>
+          <a
+            href="https://discord.gg/sZNaxsb6tc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold"
+          >
+            Discord
           </a>
         </li>
       </ul>
