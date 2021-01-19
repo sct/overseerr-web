@@ -27,7 +27,7 @@ export default function IndexPage() {
           <div className="rounded-md shadow">
             <a
               href="https://docs.overseerr.dev/getting-started/installation"
-              className="flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-8"
+              className="flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 md:py-4 md:text-lg md:px-8"
             >
               <svg
                 className="w-6 h-6 mr-2"
@@ -49,7 +49,7 @@ export default function IndexPage() {
           <div className="mt-3 mb-6 sm:mt-0 sm:ml-3">
             <a
               href="https://docs.overseerr.dev"
-              className="flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition bg-indigo-800 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-8"
+              className="flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition bg-indigo-700 border border-transparent rounded-md hover:bg-indigo-600 md:py-4 md:text-lg md:px-8"
             >
               <svg
                 className="w-6 h-6 mr-1"
