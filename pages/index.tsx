@@ -14,7 +14,7 @@ import React from 'react';
 
 const features = [
   {
-    name: 'Easy to manage requests',
+    name: 'Easy Request Management',
     description:
       'Approving and declining requests is fast and straightforward. Open Overseerr, approve, and move on.',
     icon: InboxIcon,
@@ -28,13 +28,13 @@ const features = [
   {
     name: 'DVR Integration',
     description:
-      'We fully integrate with the most popular DVR applications Radarr and Sonarr, including activity monitoring inside Overseerr itself!',
+      'We fully integrate with the popular DVR applications Radarr and Sonarr, and support activity monitoring within Overseerr itself!',
     icon: VideoCameraIcon,
   },
   {
     name: '4K Support',
     description:
-      'Request standard and 4K content separately using multiple Radarr/Sonarr servers.',
+      'Manage standard and 4K content separately using multiple Radarr/Sonarr servers.',
     image: (
       <img
         src="/icons/4k.svg"
@@ -44,9 +44,9 @@ const features = [
     ),
   },
   {
-    name: 'Plex Scan',
+    name: 'Plex Library Scanning',
     description:
-      'Overseerr scans your Plex library at an interval, so we know what is already available in your libraries.',
+      'Overseerr scans your Plex libraries at regular intervals, so it knows which items are already available on your server.',
     image: (
       <img
         src="/icons/plex.svg"
@@ -56,21 +56,21 @@ const features = [
     ),
   },
   {
-    name: 'Notification Agents',
+    name: 'Notifications',
     description:
-      'Several notification agents are directly supported, such as Discord, Slack, Email, and others.',
+      'Several notification agents are directly supported, including email, Discord, Pushbullet, Pushover, Slack, and Telegram.',
     icon: BellIcon,
   },
   {
-    name: 'Mobile Friendly',
+    name: 'Mobile-Friendly Experience',
     description:
-      'Use Overseerr as a near-native mobile app by adding it to your homescreen. The entire app is designed to be used on any screen size.',
+      'Use Overseerr as a near-native mobile app by adding it to your home screen. Overseerr is designed for use on any screen size.',
     icon: DeviceMobileIcon,
   },
   {
-    name: 'Quotas',
+    name: 'Request Limits',
     description:
-      'Set limits to how many movies or seasons a user can request per a configurable amount of days.',
+      'Restrict the number of movies or TV seasons a user can request over a configurable time period.',
     icon: AdjustmentsIcon,
   },
 ];
@@ -86,7 +86,7 @@ const faqs: FAQItem[] = [
     id: 1,
     question: 'Is there support for other languages?',
     answer:
-      'Overseerr has already localized into over 16+ languages thanks to the community! If your language has not been localized yet, we are always accepting new translations!',
+      'Overseerr has already localized into several languages thanks to the community! If your language has not been added yet, we are always accepting new translations!',
   },
   {
     id: 2,
@@ -126,9 +126,9 @@ const faqs: FAQItem[] = [
   },
   {
     id: 6,
-    question: 'Can I import my Plex Users?',
+    question: 'Can I import my Plex users?',
     answer:
-      'Yes, of course! By default, any Plex account with access to your Plex server can log in without being imported!',
+      'Yes, of course! Any Plex account with access to your Plex server can log in without being imported.',
   },
 ];
 
@@ -178,7 +178,7 @@ const IndexPage: NextPage = () => {
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
                     Overseerr helps you find media you{' '}
-                    <em className="underline">want</em> to watch. With inline
+                    <em className="font-bold">want</em> to watch. With inline
                     recommendations and suggestions, you will find yourself
                     deeper and deeper in a rabbit hole of content you never knew
                     you just had to have.
@@ -189,9 +189,9 @@ const IndexPage: NextPage = () => {
                 <blockquote>
                   <div>
                     <p className="text-base text-gray-400">
-                      Media pages are displayed with easy to digest information.
-                      We want to show you information you care about seeing.
-                      RottenTomatoes scores, cast and crew, and more.
+                      Media pages display organized, easy-to-digest information.
+                      We show you the information you care about seeing.
+                      RottenTomatoes scores, the cast and crew, and more.
                     </p>
                   </div>
                 </blockquote>
@@ -225,10 +225,10 @@ const IndexPage: NextPage = () => {
                     Requesting has never been so easy
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
-                    Overseerr presents you and your users with an incredibly
-                    easy-to-understand and use requesting interface. Users can
-                    check the exact seasons they want to watch. Advanced users
-                    can use the "Advanced Requests" option to change destination
+                    Overseerr presents you and your users with a request interface
+                    that is incredibly easy to understand and use. Users can
+                    select the exact seasons they want to watch. Advanced users
+                    can use the "Advanced Requests" options to change destination
                     folders and quality profiles.
                   </p>
                 </div>
@@ -312,9 +312,9 @@ const IndexPage: NextPage = () => {
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-indigo-200">
                   Overseerr is easy to get up and running with Docker. We also
-                  support other install methods that you can find in our
-                  documentation. If you need help, please feel free to reach out
-                  in our support channels such as Discord.
+                  support other installation methods, which you can find in our
+                  documentation. If you need help, feel free to reach out
+                  in our support channels, such as Discord.
                 </p>
                 <a
                   href="https://docs.overseerr.dev/getting-started/installation"
