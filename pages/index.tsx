@@ -135,8 +135,8 @@ const faqs: FAQItem[] = [
 const IndexPage: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen mx-auto max-w-7xl">
-        <div className="z-40 flex-1 px-4 pt-6 md:px-6 md:py-12">
+      <div className="flex flex-col mx-auto max-w-7xl">
+        <div className="z-40 flex-1 px-4 pt-6 pb-24 md:px-6 md:py-12">
           <div className="relative z-50 flex flex-col items-center justify-center mx-auto space-y-12">
             <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-100 sm:text-5xl md:text-6xl">
               <span className="block xl:inline">Beautiful Media Discovery</span>
@@ -159,7 +159,7 @@ const IndexPage: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="relative pt-16 pb-32 overflow-hidden">
+      <div className="relative pb-32 overflow-hidden md:pt-16">
         <div className="relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
