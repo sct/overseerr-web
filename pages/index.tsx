@@ -17,7 +17,7 @@ const features = [
   {
     name: 'Easy to manage requests',
     description:
-      'Approving and declining requests is simple and fast. Open Overseerr, approve, and move on.',
+      'Approving and declining requests is fast and straightforward. Open Overseerr, approve, and move on.',
     icon: InboxIcon,
   },
   {
@@ -47,7 +47,7 @@ const features = [
   {
     name: 'Plex Scan',
     description:
-      'Overseerr scans your Plex library at an interval so we know what is already available.',
+      'Overseerr scans your Plex library at an interval, so we know what is already available in your libraries.',
     image: (
       <img
         src="/icons/plex.svg"
@@ -59,7 +59,7 @@ const features = [
   {
     name: 'Notification Agents',
     description:
-      'Several notification agents are directly supported such as Discord, Slack, Email, and others.',
+      'Several notification agents are directly supported, such as Discord, Slack, Email, and others.',
     icon: BellIcon,
   },
   {
@@ -87,13 +87,13 @@ const faqs: FAQItem[] = [
     id: 1,
     question: 'Is there support for other languages?',
     answer:
-      'Overseerr is already localized into over 16+ languages thanks to the community! If your language has not been localized yet, we are always accepting new translations!',
+      'Overseerr has already localized into over 16+ languages thanks to the community! If your language has not been localized yet, we are always accepting new translations!',
   },
   {
     id: 2,
     question: 'Is there support for local users?',
     answer:
-      'You can create local users alongside Plex oAuth based users. You can use this feature to give access to Overseerr to your Plex home users.',
+      'You can create local users alongside Plex OAuth-based users. You can use this feature to give access to Overseerr to your Plex home users.',
   },
   {
     id: 3,
@@ -129,7 +129,7 @@ const faqs: FAQItem[] = [
     id: 6,
     question: 'Can I import my Plex Users?',
     answer:
-      'Yes, of course! Although, by default, any Plex account with access to your Plex server can log in without being imported!',
+      'Yes, of course! By default, any Plex account with access to your Plex server can log in without being imported!',
   },
 ];
 
@@ -178,10 +178,11 @@ const IndexPage: NextPage = () => {
                     The best way to discover media
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
-                    Overseerr helps you find media you actually <em>want</em> to
-                    watch. With inline recommendations and suggestions, you will
-                    find yourself deeper and deeper in a rabbit hole of content
-                    you never knew you wanted.
+                    Overseerr helps you find media you{' '}
+                    <em className="underline">want</em> to watch. With inline
+                    recommendations and suggestions, you will find yourself
+                    deeper and deeper in a rabbit hole of content you never knew
+                    you just had to have.
                   </p>
                 </div>
               </div>
@@ -225,8 +226,8 @@ const IndexPage: NextPage = () => {
                     Requesting has never been so easy
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
-                    Overseerr presents you are your users with an incredibly
-                    easy to understand and use requesting interface. Users can
+                    Overseerr presents you and your users with an incredibly
+                    easy-to-understand and use requesting interface. Users can
                     check the exact seasons they want to watch. Advanced users
                     can use the "Advanced Requests" option to change destination
                     folders and quality profiles.
@@ -252,8 +253,8 @@ const IndexPage: NextPage = () => {
             A request system built for ease-of-use
           </h2>
           <p className="max-w-3xl mt-4 text-lg text-indigo-200">
-            Overseerr aims to make you and your user's lives easier than ever
-            before. Here are some other useful features we support:
+            Overseerr aims to make you and your user's lives more effortless
+            than ever before. Here are some other useful features we support:
           </p>
           <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
             {features.map((feature) => (
@@ -286,7 +287,7 @@ const IndexPage: NextPage = () => {
       <div>
         <div className="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-gray-200">
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <div className="mt-12">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12 lg:grid-cols-3">
@@ -317,13 +318,13 @@ const IndexPage: NextPage = () => {
                   in our support channels such as Discord.
                 </p>
                 <a
-                  href="#"
+                  href="https://docs.overseerr.dev/getting-started/installation"
                   className="inline-flex items-center px-5 py-3 mt-8 mr-2 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md shadow hover:bg-indigo-50"
                 >
                   Installation
                 </a>
                 <a
-                  href="#"
+                  href="https://docs.overseerr.dev/"
                   className="inline-flex items-center px-5 py-3 mt-8 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md shadow hover:bg-indigo-50"
                 >
                   Documentation
