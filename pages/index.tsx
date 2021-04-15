@@ -96,7 +96,7 @@ const faqs: FAQItem[] = [
   },
   {
     id: 3,
-    question: 'Does Overseerr support for the new Plex Movie/TV agents?',
+    question: 'Does Overseerr support the new Plex Movie/TV agents?',
     answer:
       'Yes! We have full support for both the new Plex Movie Agent and the new Plex TV Agent!',
   },
