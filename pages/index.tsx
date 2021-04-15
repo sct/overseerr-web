@@ -122,7 +122,7 @@ const faqs: FAQItem[] = [
     id: 5,
     question: 'Can I use multiple Radarr/Sonarr servers?',
     answer:
-      'You can add any many of them as you like! You can switch between servers using the Advanced Requester when approving requests. We also support 4K Radarr/Sonarr servers.',
+      'You can add as many of them as you like! You can switch between servers using the Advanced Requester when approving requests. We also support 4K Radarr/Sonarr servers.',
   },
   {
     id: 6,
