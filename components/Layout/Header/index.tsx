@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useState, useRef } from 'react';
 import Image from 'next/image';
 import Transition from '../../Transition';

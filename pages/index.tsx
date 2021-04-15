@@ -9,7 +9,6 @@ import {
   KeyIcon,
   VideoCameraIcon,
   BellIcon,
-  UsersIcon,
 } from '@heroicons/react/outline';
 import React from 'react';
 
