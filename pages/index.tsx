@@ -139,8 +139,8 @@ const IndexPage: NextPage = () => {
         <div className="z-40 flex-1 px-4 pt-6 pb-24 md:px-6 md:py-12">
           <div className="relative z-50 flex flex-col items-center justify-center mx-auto space-y-12">
             <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-100 sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">Beautiful Media Discovery</span>
-              <span className="block text-indigo-500">
+              <span className="block leading-tight xl:inline">Beautiful Media Discovery</span>
+              <span className="block leading-tight text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-purple-300">
                 Simple Request Management
               </span>
             </h1>
@@ -165,7 +165,7 @@ const IndexPage: NextPage = () => {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
+                  <span className="flex items-center justify-center w-12 h-12 rounded-md bg-gradient-to-br from-indigo-500 to-purple-500">
                     <SparklesIcon
                       className="w-6 h-6 text-white"
                       aria-hidden="true"
@@ -173,7 +173,7 @@ const IndexPage: NextPage = () => {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-200">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-purple-300">
                     The best way to discover media
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
@@ -213,7 +213,7 @@ const IndexPage: NextPage = () => {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
                 <div>
-                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
+                  <span className="flex items-center justify-center w-12 h-12 rounded-md bg-gradient-to-br from-indigo-500 to-purple-500">
                     <ClockIcon
                       className="w-6 h-6 text-white"
                       aria-hidden="true"
@@ -221,7 +221,7 @@ const IndexPage: NextPage = () => {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-200">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-purple-300">
                     Requesting has never been so easy
                   </h2>
                   <p className="mt-4 text-lg text-gray-400">
@@ -304,7 +304,7 @@ const IndexPage: NextPage = () => {
       </div>
       <div>
         <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="overflow-hidden bg-indigo-700 rounded-lg shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+          <div className="overflow-hidden rounded-lg shadow-xl bg-gradient-to-br from-indigo-600 to-purple-500 lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
               <div className="lg:self-center">
                 <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
