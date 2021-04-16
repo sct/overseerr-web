@@ -190,7 +190,7 @@ const IndexPage: NextPage = () => {
                   <div>
                     <p className="text-base text-gray-400">
                       Media pages display organized, easy-to-digest information.
-                      We show you the information you care about seeing.
+                      We show you the information you care about seeing:
                       RottenTomatoes scores, the cast and crew, and more.
                     </p>
                   </div>
