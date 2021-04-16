@@ -246,7 +246,7 @@ const IndexPage: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-indigo-700">
+      <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
         <div className="max-w-4xl px-4 py-16 mx-auto sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-white">
             A request system built for ease of use
