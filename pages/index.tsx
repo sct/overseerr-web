@@ -249,7 +249,7 @@ const IndexPage: NextPage = () => {
       <div className="bg-indigo-700">
         <div className="max-w-4xl px-4 py-16 mx-auto sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-white">
-            A request system built for ease-of-use
+            A request system built for ease of use
           </h2>
           <p className="max-w-3xl mt-4 text-lg text-indigo-200">
             Overseerr aims to make you and your user's lives more effortless
