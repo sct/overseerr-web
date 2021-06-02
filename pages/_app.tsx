@@ -29,6 +29,7 @@ const CoreApp = ({ Component, pageProps }: AppProps) => {
           content="https://overseerr.dev"
           data-rh="true"
         ></meta>
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
 
       <Component {...pageProps} />
