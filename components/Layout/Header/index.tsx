@@ -21,7 +21,7 @@ export default function Header() {
                 <a href="#" className="w-auto h-8 sm:h-10">
                   <span className="sr-only">Overseerr</span>
                   <Image
-                    src="/os_logo_square.png"
+                    src="/os_logo_filled.svg"
                     width={40}
                     height={40}
                     priority
@@ -98,7 +98,7 @@ export default function Header() {
                 <a href="#" className="w-auto h-8">
                   <span className="sr-only">Overseerr</span>
                   <Image
-                    src="/os_logo_square.png"
+                    src="/os_logo_filled.svg"
                     width={40}
                     height={40}
                     priority

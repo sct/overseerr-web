@@ -21,7 +21,7 @@ const CoreApp = ({ Component, pageProps }: AppProps) => {
         ></meta>
         <meta
           property="og:image"
-          content="/os_logo_square.png"
+          content="/os_logo_filled.svg"
           data-rh="true"
         ></meta>
         <meta
