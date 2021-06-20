@@ -151,9 +151,10 @@ const IndexPage: NextPage = () => {
             <div className="w-full overflow-hidden bg-gray-800 rounded-md shadow-2xl md:rounded-xl">
               <Image
                 src="/screenshots/screen_main.jpg"
-                width="1500"
-                height="948"
+                width="1655"
+                height="990"
                 layout="responsive"
+                alt=""
               />
             </div>
           </div>
