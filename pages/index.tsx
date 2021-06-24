@@ -229,7 +229,7 @@ const IndexPage: NextPage = () => {
                     Overseerr presents you and your users with a request interface
                     that is incredibly easy to understand and use. Users can
                     select the exact seasons they want to watch. Advanced users
-                    can use the "Advanced Requests" options to change destination
+                    can use the &ldquo;Advanced Requests&rdquo; options to change destination
                     folders and quality profiles.
                   </p>
                 </div>
@@ -253,7 +253,7 @@ const IndexPage: NextPage = () => {
             A request system built for ease of use
           </h2>
           <p className="max-w-3xl mt-4 text-lg text-indigo-200">
-            Overseerr aims to make you and your user's lives more effortless
+            Overseerr aims to make you and your user&apos;s lives more effortless
             than ever before. Here are some other useful features we support:
           </p>
           <div className="grid grid-cols-1 mt-12 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
