@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 sm:rounded-t-md">
+    <footer className="bg-gray-800">
       <div className="flex flex-col mx-auto max-w-7xl">
         <ul className="flex items-center justify-between px-4 py-6 mx-auto text-sm text-white lg:container md:px-6">
-          <li className="flex items-center">
+          <li className="flex items-center space-x-2">
             <svg
-              className="w-6 h-6 mr-2"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -21,12 +21,12 @@ export default function Footer() {
             <span>Free and Open Source</span>
           </li>
 
-          <li>
+          <li className="flex items-center space-x-6">
             <a
               href="https://github.com/sct/overseerr"
               target="_blank"
               rel="noopener noreferrer"
-              className="mr-6 font-bold"
+              className="font-bold"
             >
               GitHub
             </a>
@@ -37,6 +37,12 @@ export default function Footer() {
               className="font-bold"
             >
               Discord
+            </a>
+            <a href="https://splitbee.io/?ref=badge">
+              <img
+                src="https://splitbee-cdn.fra1.cdn.digitaloceanspaces.com/static/badge/splitbee-badge.svg"
+                alt="Analytics by Splitbee.io"
+              />
             </a>
           </li>
         </ul>
